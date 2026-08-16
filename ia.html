@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImmoSmart - Votre Agence Immobilière Intelligente</title>
+    <link rel="stylesheet" href="ia.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <h2>ImmoSmart AI</h2>
+        <nav>
+            <a href="#">Acheter</a>
+            <a href="#">Estimer</a>
+            <a href="#">Contact IA</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Trouvez le bien de vos rêves grâce à notre Assistant IA</h1>
+            <p>Découvrez comment un assistant virtuel peut accompagner vos clients dans leur recherche — démonstration de l'expérience proposée.</p>
+        </div>
+
+        <!-- Zone de l'Agent IA -->
+        <div class="ai-agent-container">
+            <div class="ai-header">
+                <span class="status-dot"></span> Agent Immobilier Virtuel (Actif)
+            </div>
+            <div id="ai-chat-box" class="ai-chat-box">
+                <div class="ai-message">
+                    Bonjour ! Je suis l'assistant IA d'ImmoSmart. Quel type de bien recherchez-vous aujourd'hui (surface, budget, secteur) ?
+                </div>
+            </div>
+            <div class="ai-input-area">
+                <input type="text" id="ai-user-input" placeholder="Ex: Maison 4 pièces avec jardin à moins de 200k€...">
+                <button id="ai-send-btn">Envoyer</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="ia.js"></script>
+</body>
+</html>
