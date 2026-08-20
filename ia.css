@@ -115,3 +115,47 @@ body {
     cursor: pointer;
     font-weight: bold;
 }
+
+/* Style de la page Mentions légales */
+.legal-main {
+    display: block;
+    text-align: left;
+    padding: 40px 20px;
+}
+
+.legal-content {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 40px;
+}
+
+.legal-content h1 {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.legal-content h2 {
+    font-size: 1.15rem;
+    color: #0f172a;
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+
+.legal-content p {
+    color: #64748b;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.legal-content a {
+    color: #0f172a;
+    font-weight: 600;
+}
